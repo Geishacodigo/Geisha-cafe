@@ -1,0 +1,29 @@
+/* Estilo general para la barra de navegación */
+.navbar {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+/* Estilo para los botones de la barra de navegación */
+.nav-tabs .nav-item .nav-link {
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+    background-color: #0056b3;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background-color: #0056b3;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    margin-bottom: -2px; /* Ajuste para evitar que el botón se vea hundido */
+}
+
+/* Alineación del contenido de la página */
+.container {
+    margin-top: 20px; /* Ajusta el espacio entre la barra de navegación y el contenido */
+}
