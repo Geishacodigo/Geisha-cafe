@@ -1,6 +1,6 @@
 /* Estilo general para la barra de navegación */
 .navbar {
-    background-color: #007bff;
+    background-color: #05792e;
     padding: 10px;
 }
 
@@ -12,11 +12,11 @@
 }
 
 .nav-tabs .nav-item .nav-link:hover {
-    background-color: #0056b3;
+    background-color: #06ae41;
 }
 
 .nav-tabs .nav-item .nav-link.active {
-    background-color: #0056b3;
+    background-color: #06ae41;
     border: none;
     border-bottom: 2px solid #ffffff;
     color: #ffffff;
@@ -26,4 +26,22 @@
 /* Alineación del contenido de la página */
 .container {
     margin-top: 20px; /* Ajusta el espacio entre la barra de navegación y el contenido */
+}
+
+/* Estilo para la sección NUESTRA HISTORIA */
+.nuestra-historia {
+    margin-top: 40px;
+}
+
+.nuestra-historia h2 {
+    color: #8CC63F; /* Verde */
+}
+
+/* Estilo para la sección CERTIFICACIONES */
+.certificaciones {
+    margin-top: 40px;
+}
+
+.certificaciones h2 {
+    color: #FFD700; /* Dorado */
 }
