@@ -45,3 +45,29 @@
 .certificaciones h2 {
     color: #FFD700; /* Dorado */
 }
+
+/* Estilo para las imágenes en la sección NUESTRA HISTORIA */
+.nuestra-historia img {
+    width: 300px;
+    height: 300px;
+}
+
+.certificaciones img {
+    width: 300px;
+    height: auto;
+}
+
+/* Estilo para la sección Café Geisha en el Mundo */
+.cafe-geisha {
+    margin-top: 40px;
+}
+
+.cafe-geisha h2 {
+    color: #007bff; /* Azul */
+}
+
+.cafe-geisha img {
+    width: 300px;
+    height: 300px;
+}
+
