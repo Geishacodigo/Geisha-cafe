@@ -1,3 +1,42 @@
+/* Estilo general para la barra de navegación */
+.navbar {
+    background-color: rgb(16, 44, 48); /* Cambia este color a tu preferencia */
+    padding:10px;
+}
+
+/* Estilo para los botones de la barra de navegación */
+.nav-tabs .nav-item .nav-link {
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+    background-color: #06ae41;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background-color: #06ae41;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    margin-bottom: -2px; /* Ajuste para evitar que el botón se vea hundido */
+}
+
+/* Estilo para la etiqueta img dentro de la barra de navegación */
+.navbar-brand img {
+    width: 100px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción original */
+}
+
+/* Opcional: Ajustar el tamaño del logo en dispositivos más pequeños */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 80px; /* Puedes ajustar el tamaño para dispositivos más pequeños */
+    }
+}
+
+
 /* Alineación del contenido de la página */
 .container {
     margin-top: 20px; /* Ajusta el espacio entre la barra de navegación y el contenido */
