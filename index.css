@@ -27,8 +27,9 @@
 .nuestra-historia img,
 .certificaciones img,
 .cafe-geisha img {
-    width: 300px;
-    height: 300px;
+    margin-top: 60px;
+    width: 400px;
+    height: 400px;
 }
 
 /* Estilo para la sección Café Geisha en el Mundo */
