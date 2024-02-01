@@ -1,7 +1,7 @@
 /* Estilo general para la barra de navegación */
 .navbar {
     background-color: rgb(16, 44, 48); /* Cambia este color a tu preferencia */
-    padding:10px;
+    padding: 10px; /* Ajusta el relleno del navbar */
 }
 
 /* Estilo para los botones de la barra de navegación */
