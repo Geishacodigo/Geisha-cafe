@@ -1,7 +1,7 @@
 /* Estilo general para la barra de navegación */
 .navbar {
-    background-color: rgb(16, 44, 48); /* Cambia este color a tu preferencia */
-    padding: 10px; /* Ajusta el relleno del navbar */
+    background-color: rgb(16, 44, 48);
+    padding: 10px;
 }
 
 /* Estilo para los botones de la barra de navegación */
@@ -11,72 +11,74 @@
     border-radius: 0;
 }
 
-.nav-tabs .nav-item .nav-link:hover {
+.nav-tabs .nav-item .nav-link:hover,
+.nav-tabs .nav-item .nav-link.active {
     background-color: #06ae41;
+    color: #ffffff;
+    border: none;
 }
 
 .nav-tabs .nav-item .nav-link.active {
-    background-color: #06ae41;
-    border: none;
     border-bottom: 2px solid #ffffff;
-    color: #ffffff;
-    margin-bottom: -2px; /* Ajuste para evitar que el botón se vea hundido */
+    margin-bottom: -2px;
 }
 
 /* Estilo para la etiqueta img dentro de la barra de navegación */
 .navbar-brand img {
-    width: 100px; /* Ajusta el ancho según tus necesidades */
-    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción original */
+    max-width: 120px; /* Ajusta el ancho máximo para imágenes responsivas */
+    height: auto;
 }
-
-/* Opcional: Ajustar el tamaño del logo en dispositivos más pequeños */
-@media (max-width: 768px) {
-    .navbar-brand img {
-        width: 80px; /* Puedes ajustar el tamaño para dispositivos más pequeños */
-    }
-}
-
 
 /* Alineación del contenido de la página */
 .container {
-    margin-top: 20px; /* Ajusta el espacio entre la barra de navegación y el contenido */
+    margin-top: 20px;
+}
+
+/* Estilo común para secciones */
+.section {
+    margin: 15px;
+    margin-top: 40px;
+}
+
+/* Estilo para las imágenes en las secciones */
+.section img {
+    margin-top: 20px;
+    max-width: 100%; /* Ajusta el ancho máximo para imágenes responsivas */
+    height: auto;
 }
 
 /* Estilo para la sección NUESTRA HISTORIA */
-.nuestra-historia {
-    margin: 15px;
-    margin-top: 40px;
-}
-
 .nuestra-historia h2 {
-    color: #8CC63F; /* Verde */
+    color: #8CC63F;
 }
 
 /* Estilo para la sección CERTIFICACIONES */
-.certificaciones {
-    margin: 15px;
-    margin-top: 40px;
-}
-
 .certificaciones h2 {
-    color: #FFD700; /* Dorado */
-}
-
-/* Estilo para las imágenes en la sección NUESTRA HISTORIA */
-.nuestra-historia img,
-.certificaciones img,
-.cafe-geisha img {
-    margin-top: 60px;
-    width: 350px;
-    height: 350px;
+    color: #FFD700;
 }
 
 /* Estilo para la sección Café Geisha en el Mundo */
-.cafe-geisha {
-    margin: 15px;
-    margin-top: 40px;
+.cafe-geisha h2 {
+    color: #007bff;
 }
 
-.cafe-geisha h2 {
-    color: #007bff; /* Azul */
+/* Estilo para las imágenes en la sección NUESTRA HISTORIA */
+.nuestra-historia img {
+    margin-top: 100px;
+    max-width: 300px; /* Ajusta el tamaño máximo según tus necesidades */
+    height: auto;
+}
+
+/* Estilo para las imágenes en la sección CERTIFICACIONES */
+.certificaciones img {
+    margin-top: 20px;
+    max-width: 250px; /* Ajusta el tamaño máximo según tus necesidades */
+    height: auto;
+}
+
+/* Estilo para las imágenes en la sección Café Geisha en el Mundo */
+.cafe-geisha img {
+    margin-top: 20px;
+    max-width: 250px; /* Ajusta el tamaño máximo según tus necesidades */
+    height: auto;
 }
