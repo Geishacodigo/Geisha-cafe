@@ -32,7 +32,6 @@
 /* Alineación del contenido de la página */
 .container {
     margin-top: 20px;
-
 }
 
 /* Estilo común para secciones */
@@ -58,6 +57,11 @@
     color: #FFD700;
 }
 
+@media (max-width: 768px){
+  .certificaciones p {
+    margin-bottom: 50px;
+  }
+}
 /* Estilo para la sección Café Geisha en el Mundo */
 .cafe-geisha h2 {
     color: #007bff;
