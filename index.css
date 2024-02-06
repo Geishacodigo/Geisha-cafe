@@ -92,21 +92,54 @@ body {
 	background: #dadee1;
 }
 #taza {
-	position: relative;
-    left: calc(135% - 150px);
-	transform: translate(-50%, -15%);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
 .steam {
   position: absolute;
-  height: 150px;
-  width: 150px;
+  height: 10%; /* Cambiado de 150px a 10% del tamaño del contenedor */
+  width: 10%; /* Cambiado de 150px a 10% del tamaño del contenedor */
   border-radius: 50%;
   background-color: #fff;
-  margin-top: -75px;
-  margin-left: 75px;
+  margin-top: -5%; /* Ajustado en consecuencia */
+  margin-left: 5%; /* Ajustado en consecuencia */
   z-index: 0;
   opacity: 0;
 }
+
+/* Añade reglas de medios para ajustar la taza en diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+  #taza {
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .steam {
+      height: 5%;
+      width: 5%;
+      margin-top: -2.5%;
+      margin-left: 2.5%;
+  }
+}
+
+@media (max-width: 576px) {
+  #taza {
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .steam {
+      height: 3%;
+      width: 3%;
+      margin-top: -1.5%;
+      margin-left: 1.5%;
+  }
+}
+
+/* Resto de tu código CSS */
+
 
 #steam1 {
   -webkit-animation: steam1 4s ease-out infinite;
