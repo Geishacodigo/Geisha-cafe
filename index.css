@@ -112,29 +112,39 @@ body {
 /* Añade reglas de medios para ajustar la taza en diferentes tamaños de pantalla */
 @media (max-width: 768px) {
   #taza {
-      left: 80%;
+      left: 65%;
       transform: translateX(-50%);
   }
 
   .steam {
-      height: 5%;
-      width: 5%;
-      margin-top: -2.5%;
-      margin-left: 2.5%;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: -75px;
+    margin-left: 75px;
+    z-index: 0;
+    opacity: 0;
   }
 }
 
 @media (max-width: 576px) {
   #taza {
-      left: 80%;
+      left: 65%;
       transform: translateX(-50%);
   }
 
   .steam {
-      height: 3%;
-      width: 3%;
-      margin-top: -1.5%;
-      margin-left: 1.5%;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: -75px;
+    margin-left: 75px;
+    z-index: 0;
+    opacity: 0;
   }
 }
 
