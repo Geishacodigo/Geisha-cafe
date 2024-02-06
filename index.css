@@ -32,6 +32,7 @@
 /* Alineación del contenido de la página */
 .container {
     margin-top: 20px;
+
 }
 
 /* Estilo común para secciones */
@@ -64,15 +65,15 @@
 
 /* Estilo para las imágenes en la sección NUESTRA HISTORIA */
 .nuestra-historia img {
-    margin-top: 100px;
-    max-width: 280px; /* Ajusta el tamaño máximo según tus necesidades */
+    margin-top: 80px;
+    max-width: 350px; /* Ajusta el tamaño máximo según tus necesidades */
     height: auto;
 }
 
 /* Estilo para las imágenes en la sección CERTIFICACIONES */
 .certificaciones img {
-    margin-top: 20px;
-    max-width: 250px; /* Ajusta el tamaño máximo según tus necesidades */
+    margin-top: 40px;
+    max-width: 350px; /* Ajusta el tamaño máximo según tus necesidades */
     height: auto;
 }
 
