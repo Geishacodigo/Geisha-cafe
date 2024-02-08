@@ -97,7 +97,7 @@ body {
 }
 #taza {
 	position: relative;
-  left: calc(135% - 150px);
+  left: calc(130% - 150px);
 	transform: translate(-50%, -15%);
 }
 
@@ -116,7 +116,7 @@ body {
 /* Añade reglas de medios para ajustar la taza en diferentes tamaños de pantalla */
 @media (max-width: 768px) {
   #taza {
-      left: 65%;
+      left: 55%;
       transform: translateX(-50%, -15%);
   }
 
@@ -135,7 +135,7 @@ body {
 
 @media (max-width: 576px) {
   #taza {
-      left: 65%;
+      left: 55%;
       transform: translateX(-50%, -15);
   }
 
