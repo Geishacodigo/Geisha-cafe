@@ -3,145 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Descripción breve de tu página">
-  <title>GEISHA</title>
+  <title>GEISHA - Contáctanos</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
 
-<!-- Header con botones de navegación y logo -->
-<nav class="navbar navbar-expand-md navbar-dark bg-custom">
-  <div class="container">
-    <a class="navbar-brand" href="#"><img src="images/logo_completo.png" alt="Logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Quienes somos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="productos.html">Nuestros productos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacto.html">Contáctanos</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- Sección NUESTRA HISTORIA -->
-<section class="nuestra-historia text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <img src="images/cafe.jpeg" alt="Café en las tierras altas de Boquete" class="img-fluid rounded mb-3">
+<header id="header"></header>
+<main>
+  <div id="slideshow" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="images/logo_completo.png" class="d-block w-100 img-fluid" alt="Slide 1">
       </div>
-      <div class="col-md-6 text-left">
-        <h2 class="text-success">Nuestra Historia</h2>
-        <p class="lead">En las majestuosas tierras altas de Boquete, Rio Sereno, Volcán, y otras regiones en Chiriquí, Panamá, se cultiva el tesoro del café Geisha, conocido por su exquisitez y exclusividad. Este grano ha ganado renombre como uno de los cafés más finos y buscados del mundo. En altitudes de 1500 a 1800 metros sobre el nivel del mar, el Café Geisha encuentra su hogar en un microclima único con condiciones ideales para su cultivo. En la región, generaciones de agricultores dedicados han cultivado con pasión las exquisitas plantas de café, especialmente la variedad Geisha, que se destacó por su aroma incomparable y su sabor sorprendente con notas florales y frutales. Entre las fincas destacadas se encuentra "DONDE YITA" en Fortuna, Boquete, que lleva el nombre de la madre del propietario y es herencia familiar.</p>
-        <div class="text-center mt-4">
-          <a href="productos.html" class="btn btn-success">Ver nuestros productos</a>
+      <div class="carousel-item active">
+        <img src="images/campo.jpeg" class="d-block w-100 img-fluid" alt="Slide 2">
+        <div class="carousel-caption">
+          <h5>Texto del Slide 2</h5>
+          <p>Descripción del Slide 2.</p>
+          <a href="quienes_somos.html" class="btn btn-primary">Ir a Quiénes Somos</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/persona.jpeg" class="d-block w-100 img-fluid" alt="Slide 3">
+        <div class="carousel-caption">
+          <h5>Texto del Slide 3</h5>
+          <p>Descripción del Slide 3.</p>
+          <a href="productos.html" class="btn btn-primary">Ir a Productos</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/cafe3.jpeg" class="d-block w-100 img-fluid" alt="Slide 4">
+        <div class="carousel-caption">
+          <h5>Texto del Slide 4</h5>
+          <p>Descripción del Slide 4.</p>
+          <a href="contacto.html" class="btn btn-primary">Ir a Contáctanos</a>
         </div>
       </div>
     </div>
+    <a class="carousel-control-prev" href="#slideshow" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#slideshow" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-</section>
+</main>
 
-<!-- Café Geisha en el Mundo: -->
-<section class="cafe-geisha mt-5 text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 text-left">
-        <h2 class="text-info">Café Geisha en el Mundo</h2>
-        <p class="lead">La exclusividad del Café Geisha radica en su producción limitada, convirtiéndolo en una joya para los amantes del café. "CAFE FORTUNA" y "GEISHA - PANAMA COFFEE GOURNET" son marcas que presentan variedades genéricas y Geisha, respectivamente. El Café Geisha de Panamá ha obtenido reconocimientos mundiales, incluyendo premios en competencias internacionales. A pesar de la creciente demanda, los cultivadores mantienen métodos tradicionales y producen cada grano con el mismo cuidado. El Ministerio de Desarrollo Agropecuario certifica el origen, calidad y autenticidad del café panameño.</p>
-      </div>
-      <div class="col-md-6">
-        <img src="images/cafe6.jpeg" alt="Café Geisha en el mundo" class="img-fluid rounded mb-3">
-      </div>
-    </div>
-  </div>
-</section>
+<footer id="footer"></footer>
 
-<!-- Sección CERTIFICACIONES -->
-<section class="certificaciones mt-5 text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <img src="images/premio.jpeg" alt="Certificaciones" class="img-fluid rounded mb-3">
-      </div>
-      <div class="col-md-6 text-left">
-        <h2 class="text-warning">Certificaciones</h2>
-        <p class="lead">
-          El café Geisha de Panamá cuenta con certificaciones de Rainforest Alliance, 
-          UTZ, Smithsonian Bird Friendly y Direct Trade, que garantizan su cultivo sostenible, 
-          respeto al medio ambiente, condiciones justas para los trabajadores y comercio directo 
-          con los productores. Estas certificaciones son un testimonio del compromiso de Café Geisha 
-          de Panamá con la calidad, el cuidado ambiental y la sostenibilidad.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div id="taza">
-	<div class="steam" id="steam1"> </div>
-	<div class="steam" id="steam2"> </div>
-	<div class="steam" id="steam3"> </div>
-	<div class="steam" id="steam4"> </div>
-
-	<div id="cup">
-		<div id="cup-body">
-			<div id="cup-shade"></div>
-		</div>
-		<div id="cup-handle"></div>
-	</div>
-
-	<div id="saucer"></div>
-
-	<div id="shadow"></div>
-</div>
-
-<!-- Footer -->
-<footer class="bg-dark text-white py-1">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <p class="mb-0">by Juan Jose Giraldo</p>
-        <a href="https://www.linkedin.com/in/juan-josé-giraldo-zuluaga-977176240/" target="_blank">
-          <img src="images/LinkedIn_icon_circle.svg.png" alt="LinkedIn Logo" height="30">
-        </a>
-      </div>
-      <div class="col-md-6 text-right">
-        <a href="https://www.facebook.com/tu-pagina-de-facebook" target="_blank">
-          <img src="images/Facebook_Logo_(2019).png" alt="Facebook Logo" height="30">
-        </a>
-        <a href="https://twitter.com/tu-cuenta-de-twitter" target="_blank">
-          <img src="images/X_logo_2023_(white).png" alt="Twitter Logo" height="30">
-        </a>
-        <a href="https://www.instagram.com/tu-cuenta-de-instagram" target="_blank">
-          <img src="images/Instagram_icon.png.webp" alt="Instagram Logo" height="30">
-        </a>
-      </div>
-    </div>
-    <!-- Volver arriba -->
-    <div class="row mt-2">
-      <div class="col-md-12 text-center">
-        <a href="#top" class="btn btn-secondary">
-          <img src="images/arrow-upward_119422.png" alt="Subir" height="30">
-        </a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<!-- Scripts de Bootstrap y jQuery (asegúrate de incluir jQuery antes de Bootstrap.js) -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <!-- Scripts de Bootstrap y jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script>
+    // Cargar el header
+    $(function(){
+      $("#header").load("header.html"); 
+    });
+
+    // Cargar el footer
+    $(function(){
+      $("#footer").load("footer.html"); 
+    });
+</script>
 
 </body>
+
 </html>
