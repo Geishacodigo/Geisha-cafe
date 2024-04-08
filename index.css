@@ -1,31 +1,10 @@
-
-#slideshow {
-    margin-top: 60px; /* Margen superior para separar el slideshow del header */
-}
-
-.carousel-item {
-    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
-    color: #fff; /* Texto blanco para contraste */
-    text-align: center;
-    padding: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -30%);
-    width: 100%; /* Ajusta el ancho al 100% del contenedor */
-}
-
-  .carousel-item img {
-    object-fit: scale-down; /* Ajusta la imagen al tamaño del contenedor sin distorsionarla */
-    height: 100vh; /* Establece la altura de la imagen al 100% de la altura de la ventana */
-    
+/* Estilo para las imágenes */
+img {
+    max-width: 100%; /* La imagen ocupará como máximo el ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
   }
-
-  .carousel {
-    height: 80vh; /* Ajusta la altura del carrusel al 80% de la altura de la pantalla */
-}
   
-  main {
+main {
     background: #f4f3ef; /* Color crema suave */
   }
 
