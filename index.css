@@ -1,22 +1,33 @@
-/* Estilos personalizados para el slideshow */
-.carousel-caption {
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%; /* Ajusta el ancho al 100% del contenedor */
+
+#slideshow {
+    margin-top: 60px; /* Margen superior para separar el slideshow del header */
 }
 
-
-.carousel-item img {
-  object-fit: scale-down; /* Ajusta la imagen al tamaño del contenedor sin distorsionarla */
-  height: 100vh; /* Establece la altura de la imagen al 100% de la altura de la ventana */
+.carousel-item {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    color: #fff; /* Texto blanco para contraste */
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
 }
 
+  .carousel-item img {
+    object-fit: scale-down; /* Ajusta la imagen al tamaño del contenedor sin distorsionarla */
+    height: 100vh; /* Establece la altura de la imagen al 100% de la altura de la ventana */
+    
+  }
+
+  .carousel {
+    height: 80vh; /* Ajusta la altura del carrusel al 80% de la altura de la pantalla */
+}
+  
+  main {
+    background: #f4f3ef; /* Color crema suave */
+  }
 
 /* Estilo general para la barra de navegación */
 .navbar {
@@ -26,7 +37,7 @@
 
 /* Estilo para los botones de la barra de navegación */
 .nav-tabs .nav-item .nav-link {
-    color: #ffffff;
+    color: #f4f3ef;
     border: none;
     border-radius: 0;
 }
@@ -34,12 +45,12 @@
 .nav-tabs .nav-item .nav-link:hover,
 .nav-tabs .nav-item .nav-link.active {
     background-color: #06ae41;
-    color: #ffffff;
+    color: #f4f3ef;
     border: none;
 }
 
 .nav-tabs .nav-item .nav-link.active {
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #f4f3ef;
     margin-bottom: -2px;
 }
 
@@ -110,8 +121,4 @@
 
 p{
   text-align: justify;
-}
-
-body {
-	background: #dadee1;
 }
