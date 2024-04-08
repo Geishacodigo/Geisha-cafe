@@ -1,10 +1,5 @@
-/* Estilo para las imágenes */
-img {
-    max-width: 100%; /* La imagen ocupará como máximo el ancho del contenedor */
-    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
-  }
-  
-main {
+
+body {
     background: #f4f3ef; /* Color crema suave */
   }
 
