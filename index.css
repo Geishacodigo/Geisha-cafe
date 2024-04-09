@@ -5,7 +5,7 @@ body {
 
 /* Estilo general para la barra de navegación */
 .navbar {
-    background-color: rgb(16, 44, 48);
+    background-color: rgb(0, 44, 48);
     padding: 10px;
 }
 
@@ -54,12 +54,12 @@ body {
 
 /* Estilo para la sección NUESTRA HISTORIA */
 .nuestra-historia h2 {
-    color: #8CC63F;
+    color: rgb(0, 44, 48);
 }
 
 /* Estilo para la sección CERTIFICACIONES */
 .certificaciones h2 {
-    color: #FFD700;
+    color: rgb(0, 44, 48);
 }
 
 @media (max-width: 768px){
@@ -69,7 +69,7 @@ body {
 }
 /* Estilo para la sección Café Geisha en el Mundo */
 .cafe-geisha h2 {
-    color: #007bff;
+    color: rgb(0, 44, 48);
 }
 
 /* Estilo para las imágenes en la sección NUESTRA HISTORIA */
