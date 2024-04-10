@@ -71,29 +71,56 @@ body {
     color: rgb(0, 44, 48);
 }
 
-/* Estilo para las imágenes en la sección NUESTRA HISTORIA */
-.nuestra-historia img {
-    margin-top: 80px;
-    max-width: 350px; /* Ajusta el tamaño máximo según tus necesidades */
-    height: auto;
-}
-
-/* Estilo para las imágenes en la sección CERTIFICACIONES */
-.certificaciones img {
-    margin-top: 40px;
-    max-width: 350px; /* Ajusta el tamaño máximo según tus necesidades */
-    height: auto;
-}
-
 /* Estilo para las imágenes en la sección Café Geisha en el Mundo */
 .cafe-geisha img {
     margin-top: 20px;
     max-width: 250px; /* Ajusta el tamaño máximo según tus necesidades */
     height: auto;
+    border-radius: 1rem; /* Agrega bordes redondeados a las imágenes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave a las imágenes */
+    transition: transform 0.3s ease; /* Agrega una transición suave al hacer hover */
 }
+
+/* Estilo para las imágenes en la sección Café Geisha en el Mundo al hacer hover */
+.cafe-geisha img:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al hacer hover */
+}
+
+/* Estilo para las imágenes en las secciones Nuestra Historia, Certificaciones y Café Geisha en el Mundo */
+.nuestra-historia img,
+.certificaciones img{
+    margin-top: 60px;
+    max-width: 50%; /* Ajusta el ancho máximo para hacer las imágenes más pequeñas */
+    height: auto;
+    border-radius: 1rem; /* Agrega bordes redondeados a las imágenes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave a las imágenes */
+    transition: transform 0.3s ease; /* Agrega una transición suave al hacer hover */
+}
+
+/* Estilo para las imágenes en las secciones Nuestra Historia, Certificaciones y Café Geisha en el Mundo al hacer hover */
+.nuestra-historia img:hover,
+.certificaciones img:hover{
+    transform: scale(1.15); /* Aumenta ligeramente el tamaño al hacer hover */
+}
+
 
 p {
   text-align: justify;
+}
+
+.tiendas_class .col-md-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tiendas_class .img-fluid {
+    max-width: 80%; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto;
+    transition: transform 0.3s ease; /* Agrega una transición suave al hacer hover */
+}
+
+.tiendas_class .img-fluid:hover {
+    transform: scale(1.25); /* Aumenta ligeramente el tamaño al hacer hover */
 }
 
 /* Estilo para la sección de productos */
