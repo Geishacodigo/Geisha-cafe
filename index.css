@@ -192,21 +192,76 @@ p {
 /* Media query para dispositivos móviles */
 @media only screen and (max-width: 768px) {
     .productos_class {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Ajuste de tamaño de las imágenes */
-        grid-gap: 10px; /* Espacio entre las imágenes */
+        margin-top: 20px;
+        display: grid;
+        place-items: center;
+        grid-gap: 20px; /* Espacio entre las imágenes */
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Distribución automática de las imágenes */
     }
-
+    
+    .productos_class figure img {
+        max-width: 100%; /* Ajuste máximo al ancho del contenedor */
+        height: auto;
+    }
+    
+    /* Estilo para las figuras en la sección de productos */
     .productos_class figure {
-        margin-bottom: 10px; /* Espaciado inferior reducido para las figuras */
+        display: grid;
+        border-radius: 1rem;
+        overflow: hidden;
+        cursor: pointer;
+        margin-bottom: 20px;
+        max-width: 150px; /* Ajuste máximo al ancho de la figura */
     }
-
+    
+    .productos_class figure > * {
+        grid-area: 1/1;
+        transition: .4s;
+    }
+    
     .productos_class figure figcaption {
-        font-size: 1rem; /* Tamaño de letra ajustado para dispositivos móviles */
+        display: grid;
+        align-items: end;
+        font-family: sans-serif;
+        font-size: 1.5rem; /* Tamaño de letra ajustado para dispositivos móviles */
+        font-weight: bold;
+        color: #000;
         padding: .5rem; /* Reducción del padding para dispositivos móviles */
+        background: var(--c,#0009);
+        clip-path: inset(0 var(--_i,100%) 0 0);
+        mask:
+          linear-gradient(#000 0 0),
+          linear-gradient(#000 0 0); /* Standard property */
+        -webkit-mask:
+          linear-gradient(#000 0 0),
+          linear-gradient(#000 0 0); /* Safari, Chrome, Edge */
+        mask-composite: xor; /* Standard property */
+        -webkit-mask-composite: xor; /* Safari, Chrome, Edge */
+        mask-clip: text, padding-box; /* Standard property */
+        -webkit-mask-clip: text, padding-box; /* Safari, Chrome, Edge */
+        mask-size: auto; /* Standard property */
+        -webkit-mask-size: auto; /* Safari, Chrome, Edge */
+        margin: -1px;
     }
-
+    
+    .productos_class figure:hover figcaption {
+        --_i: 0%;
+    }
+    
+    .productos_class figure:hover img {
+        transform: scale(1.2);
+    }
+    
+    /* Estilo para el texto de descripción */
     .descripcion {
         font-size: 1rem; /* Tamaño de letra ajustado para dispositivos móviles */
-        max-width: 500px; /* Ajuste máximo al ancho del texto para dispositivos móviles */
+        text-align: center;
+        color: #000;
+        max-width: 300px; /* Ajuste máximo al ancho del texto */
+        margin: 0 auto;
+        margin-top: 20px;
+        -webkit-mask-composite: xor; /* Safari, Chrome, Edge */
+        mask-composite: xor; /* Standard property */
     }
+    
 }
