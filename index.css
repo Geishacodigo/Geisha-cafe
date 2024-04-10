@@ -189,7 +189,7 @@ p {
 .descripcion {
     font-size: 1rem; /* Tamaño de letra ajustado para dispositivos móviles */
     text-align: center;
-    color: #000;
+    color: #fff;
     max-width: 300px; /* Ajuste máximo al ancho del texto */
     margin: 0 auto;
     margin-top: 20px;
