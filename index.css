@@ -89,7 +89,7 @@ body {
 /* Estilo para las imágenes en las secciones Nuestra Historia, Certificaciones y Café Geisha en el Mundo */
 .nuestra-historia img,
 .certificaciones img{
-    margin-top: 60px;
+    margin-top: 30px;
     max-width: 50%; /* Ajusta el ancho máximo para hacer las imágenes más pequeñas */
     height: auto;
     border-radius: 1rem; /* Agrega bordes redondeados a las imágenes */
@@ -129,14 +129,13 @@ p {
     display: grid;
     place-items: center;
     grid-gap: 20px; /* Espacio entre las imágenes */
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Distribución automática de las imágenes */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Distribución automática de las imágenes */
 }
 
 .productos_class figure img {
-    max-width: 100%; /* Ajuste máximo al ancho del contenedor */
+    width: 100%; /* Ajuste máximo al ancho del contenedor */
     height: auto;
 }
-
 
 /* Estilo para las figuras en la sección de productos */
 .productos_class figure {
@@ -156,7 +155,7 @@ p {
     display: grid;
     align-items: end;
     font-family: sans-serif;
-    font-size: 2.3rem;
+    font-size: 1.2rem; /* Tamaño de fuente reducido para dispositivos móviles */
     font-weight: bold;
     color: #0000;
     padding: .75rem;
@@ -177,7 +176,6 @@ p {
     margin: -1px;
 }
 
-
 .productos_class figure:hover figcaption {
     --_i: 0%;
 }
@@ -188,7 +186,7 @@ p {
 
 /* Estilo para el texto de descripción */
 .descripcion {
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Tamaño de fuente reducido para dispositivos móviles */
     text-align: center;
     color: #000;
     max-width: 800px;
@@ -197,4 +195,3 @@ p {
     -webkit-mask-composite: xor; /* Safari, Chrome, Edge */
     mask-composite: xor; /* Standard property */
 }
-
